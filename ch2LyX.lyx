@@ -104,6 +104,43 @@ Bu bölümde, ortak yalıtım düzleminde bulunan sismik yalıtımlı tekli ve �
  modellerine ait detaylar paylaşılmıştır.
  Ayrıca sismik yalıtımlı yapıların eşdeğer doğrusal analizine ilişkin tasarım
  metodolojileri ilgili yöntem ve yönetmelikler dahilinde açıklanmıştır.
+\begin_inset Formula 
+\[
+A=\int_{0}^{L}f(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diğer bir formül:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P_{m,R}=\left[\begin{array}{c}
+N(x)\\
+M(x)
+\end{array}\right]=\int_{0}^{L}\bar{a}^{T}(x)\cdot P_{s,R}\left(x\right)\cdot dx\label{lateralstiffness-32}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{m}=\bar{a}^{T}(x)\cdot k_{s}\left(x\right)\cdot\bar{a}(x)\cdot dx\label{lateralstiffness-33}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
